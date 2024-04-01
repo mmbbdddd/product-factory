@@ -1,0 +1,13 @@
+product_code,module,desc,schema,groups,default_value,metadata_source,multliselect
+test,cus_group1,客户大类,array,,,cusgroup,Y
+test,cus_group2,客户小类,array,,,cusgroup,Y
+test,use_group1,用途大类,array,,,dict,Y
+test,use_group2,用途小类,array,,,dict,Y
+test,repay_mode,还款方式,array,,,dict,Y
+test,repay_action,还款动作,array,,,dict,Y
+test,cycle,周期,array,,,dict,Y
+test,guarantee,担保方式,enum,,,dict,N
+test,fee_calc,费率,,[1],,,
+test,repay_ahead,是否支持提前结清,,[1],,,
+test,repay_fee_mode,提前结清费率计算模式：费率/固定金额,,[1],,,
+test,charge_sequence,冲销顺序,,[1],,,
